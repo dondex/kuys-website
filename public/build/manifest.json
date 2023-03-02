@@ -1,0 +1,146 @@
+{
+  "node_modules/boxicons/fonts/boxicons.eot": {
+    "file": "assets/boxicons-c23887bb.eot",
+    "src": "node_modules/boxicons/fonts/boxicons.eot"
+  },
+  "node_modules/boxicons/fonts/boxicons.svg": {
+    "file": "assets/boxicons-3fe502d8.svg",
+    "src": "node_modules/boxicons/fonts/boxicons.svg"
+  },
+  "node_modules/boxicons/fonts/boxicons.ttf": {
+    "file": "assets/boxicons-47509a2d.ttf",
+    "src": "node_modules/boxicons/fonts/boxicons.ttf"
+  },
+  "node_modules/boxicons/fonts/boxicons.woff": {
+    "file": "assets/boxicons-d5d511cf.woff",
+    "src": "node_modules/boxicons/fonts/boxicons.woff"
+  },
+  "node_modules/boxicons/fonts/boxicons.woff2": {
+    "file": "assets/boxicons-4b87cbc7.woff2",
+    "src": "node_modules/boxicons/fonts/boxicons.woff2"
+  },
+  "public/img/banner.jpg": {
+    "file": "assets/banner-7381c40d.jpg",
+    "src": "public/img/banner.jpg"
+  },
+  "public/img/chefs/chefs-1.jpg": {
+    "file": "assets/chefs-1-408069a1.jpg",
+    "src": "public/img/chefs/chefs-1.jpg"
+  },
+  "public/img/chefs/chefs-2.jpg": {
+    "file": "assets/chefs-2-4ca0e173.jpg",
+    "src": "public/img/chefs/chefs-2.jpg"
+  },
+  "public/img/chefs/chefs-3.jpg": {
+    "file": "assets/chefs-3-28ddea8b.jpg",
+    "src": "public/img/chefs/chefs-3.jpg"
+  },
+  "public/img/gallery/1.jpg": {
+    "file": "assets/1-b342e854.jpg",
+    "src": "public/img/gallery/1.jpg"
+  },
+  "public/img/gallery/2.jpg": {
+    "file": "assets/2-03086d33.jpg",
+    "src": "public/img/gallery/2.jpg"
+  },
+  "public/img/gallery/3.jpg": {
+    "file": "assets/3-11e68988.jpg",
+    "src": "public/img/gallery/3.jpg"
+  },
+  "public/img/gallery/4.jpg": {
+    "file": "assets/4-5dcef175.jpg",
+    "src": "public/img/gallery/4.jpg"
+  },
+  "public/img/gallery/5.jpg": {
+    "file": "assets/5-2086da76.jpg",
+    "src": "public/img/gallery/5.jpg"
+  },
+  "public/img/gallery/7.jpg": {
+    "file": "assets/7-4ac31c55.jpg",
+    "src": "public/img/gallery/7.jpg"
+  },
+  "public/img/gallery/8.jpg": {
+    "file": "assets/8-442e1151.jpg",
+    "src": "public/img/gallery/8.jpg"
+  },
+  "public/img/specials-1.png": {
+    "file": "assets/specials-1-6421c998.png",
+    "src": "public/img/specials-1.png"
+  },
+  "public/img/specials-2.png": {
+    "file": "assets/specials-2-2c834ae4.png",
+    "src": "public/img/specials-2.png"
+  },
+  "public/img/specials-3.png": {
+    "file": "assets/specials-3-436313b8.png",
+    "src": "public/img/specials-3.png"
+  },
+  "public/img/specials-4.png": {
+    "file": "assets/specials-4-e13fd951.png",
+    "src": "public/img/specials-4.png"
+  },
+  "public/img/specials-5.png": {
+    "file": "assets/specials-5-6de32855.png",
+    "src": "public/img/specials-5.png"
+  },
+  "public/img/testimonials/testimonials-1.jpg": {
+    "file": "assets/testimonials-1-c88a6037.jpg",
+    "src": "public/img/testimonials/testimonials-1.jpg"
+  },
+  "public/img/testimonials/testimonials-2.jpg": {
+    "file": "assets/testimonials-2-fe89415d.jpg",
+    "src": "public/img/testimonials/testimonials-2.jpg"
+  },
+  "public/img/testimonials/testimonials-3.jpg": {
+    "file": "assets/testimonials-3-acacf06d.jpg",
+    "src": "public/img/testimonials/testimonials-3.jpg"
+  },
+  "public/img/testimonials/testimonials-4.jpg": {
+    "file": "assets/testimonials-4-09864812.jpg",
+    "src": "public/img/testimonials/testimonials-4.jpg"
+  },
+  "public/img/testimonials/testimonials-5.jpg": {
+    "file": "assets/testimonials-5-39550cf5.jpg",
+    "src": "public/img/testimonials/testimonials-5.jpg"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-efc33d4e.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/testimonials-1-c88a6037.jpg",
+      "assets/testimonials-2-fe89415d.jpg",
+      "assets/testimonials-3-acacf06d.jpg",
+      "assets/testimonials-4-09864812.jpg",
+      "assets/testimonials-5-39550cf5.jpg",
+      "assets/1-b342e854.jpg",
+      "assets/2-03086d33.jpg",
+      "assets/3-11e68988.jpg",
+      "assets/4-5dcef175.jpg",
+      "assets/5-2086da76.jpg",
+      "assets/7-4ac31c55.jpg",
+      "assets/8-442e1151.jpg",
+      "assets/banner-7381c40d.jpg",
+      "assets/specials-1-6421c998.png",
+      "assets/specials-2-2c834ae4.png",
+      "assets/specials-3-436313b8.png",
+      "assets/specials-4-e13fd951.png",
+      "assets/specials-5-6de32855.png",
+      "assets/chefs-1-408069a1.jpg",
+      "assets/chefs-2-4ca0e173.jpg",
+      "assets/chefs-3-28ddea8b.jpg",
+      "assets/boxicons-c23887bb.eot",
+      "assets/boxicons-4b87cbc7.woff2",
+      "assets/boxicons-d5d511cf.woff",
+      "assets/boxicons-47509a2d.ttf",
+      "assets/boxicons-3fe502d8.svg"
+    ],
+    "css": [
+      "assets/app-efc33d4e.css"
+    ],
+    "file": "assets/app-f1838b2b.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
