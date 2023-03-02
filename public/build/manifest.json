@@ -104,7 +104,7 @@
     "src": "public/img/testimonials/testimonials-5.jpg"
   },
   "resources/js/app.css": {
-    "file": "assets/app-efc33d4e.css",
+    "file": "assets/app-40c03b4a.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
@@ -137,9 +137,9 @@
       "assets/boxicons-3fe502d8.svg"
     ],
     "css": [
-      "assets/app-efc33d4e.css"
+      "assets/app-40c03b4a.css"
     ],
-    "file": "assets/app-f1838b2b.js",
+    "file": "assets/app-824fed12.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
