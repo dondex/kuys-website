@@ -7,7 +7,7 @@
 
         <div class="section-title">
           <h2>Reservation</h2>
-          <p>Book a Table</p>
+          <p>{{ reservationMade ? 'Reservation Made' : 'Book a Table' }}</p>
         </div>
 
         <form @submit.prevent="submitForm" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
@@ -46,7 +46,7 @@
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Book a Table</button></div>
+          <div class="text-center"><button :disabled="reservationMade" type="submit">{{ reservationMade ? 'Reservation Made' : 'Book a Table' }}</button></div>
         </form>
 
       </div>
@@ -62,54 +62,82 @@
   export default {
 
     data() {
-      return {
-        form: {
-          name: '',
-          email: '',
-          phone_number: '',
-          date: '',
-          time: '',
-          number_of_guests: '',
-          message: '',
-          success: false,
+        return {
+            form: {
+            name: '',
+            email: '',
+            phone_number: '',
+            date: '',
+            time: '',
+            number_of_guests: '',
+            message: '',
+            success: false,
+            },
+            reservationMade: false,
         }
-      }
     },
     methods: {
-      submitForm() {
-        const data = {
-          name: this.form.name,
-          email: this.form.email,
-          phone_number: this.form.phone_number,
-          date: this.form.date,
-          time: this.form.time,
-          number_of_guests: this.form.number_of_guests,
-          message: this.form.message,
-        };
-        axios.post('/api/book-reservation', data)
-          .then(response => {
-            // Reset the form data and set the success property to true
-            this.form.name = '';
-            this.form.email = '';
-            this.form.phone_number = '';
-            this.form.date = '';
-            this.form.time = '';
-            this.form.number_of_guests = '';
-            this.form.message = '';
-            this.form.success = true;
+        submitForm() {
+            const data = {
+                name: this.form.name,
+                email: this.form.email,
+                phone_number: this.form.phone_number,
+                date: this.form.date,
+                time: this.form.time,
+                number_of_guests: this.form.number_of_guests,
+                message: this.form.message,
+            };
+            axios.get('/api/check-reservation', { params: data })
+                .then(response => {
+                    if (response.data.exists) {
+                        // Reservation already exists, show error message
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Reservation already exists!',
+                            text: 'You have already booked a table for this date and time.',
+                        })
+                    } else {
+                        // Reservation does not exist, send request to server
+                        if (this.reservationMade) {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Reservation already made!',
+                                text: 'You have already made a reservation. Please wait for confirmation.',
+                            });
+                            return;
+                        }
+                        axios.post('/api/book-reservation', data)
+                            .then(response => {
+                                // Reset the form data and set the success property to true
+                                this.form.name = '';
+                                this.form.email = '';
+                                this.form.phone_number = '';
+                                this.form.date = '';
+                                this.form.time = '';
+                                this.form.number_of_guests = '';
+                                this.form.message = '';
+                                this.form.success = true;
+                                this.reservationMade = true;
 
-            // Show success message using sweetalert2
-            Swal.fire({
-            icon: 'success',
-            title: 'Form submitted successfully!',
-            showConfirmButton: false,
-            timer: 2000
-            })
-          })
-          .catch(error => {
-            console.error(error);
-          });
-      },
+                                // Show success message using sweetalert2
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Form submitted successfully!',
+                                    showConfirmButton: false,
+                                    timer: 2000
+                                })
+                            })
+                            .catch(error => {
+                                console.error(error);
+                            });
+                    }
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        }
+
     }
+
   }
   </script>

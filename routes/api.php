@@ -12,3 +12,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 //Reservation
 Route::post('/book-reservation', [BookReservationController::class, 'store']);
+Route::get('/check-reservation', [BookReservationController::class, 'checkReservation']);

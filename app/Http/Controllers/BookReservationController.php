@@ -26,6 +26,16 @@ class BookReservationController extends Controller
             return response()->json($validator->errors(), 422);
         }
 
+        $ip_address = $request->ip();
+
+        // Check if there is a previous booking from the same IP address
+        $previousReservation = BookReservation::where('ip_address', $ip_address)->first();
+        if ($previousReservation) {
+            return response()->json([
+                'message' => 'You already have a reservation'
+            ], 422);
+        }
+
         $reservation = new BookReservation();
         $reservation->name = $request->name;
         $reservation->email = $request->email;
@@ -34,7 +44,7 @@ class BookReservationController extends Controller
         $reservation->time = $request->time;
         $reservation->number_of_guests = $request->number_of_guests;
         $reservation->message = $request->message;
-        $reservation->ip_address = $request->ip();
+        $reservation->ip_address = $ip_address;
         $reservation->save();
 
         $mailData = [
@@ -48,11 +58,18 @@ class BookReservationController extends Controller
         ];
 
         // Send email
-        Mail::to('yourgmailaccount@gmail.com')->send(new ReservationConfirmation($mailData));
+        Mail::to('dex.chavez21@gmail.com')->send(new ReservationConfirmation($mailData));
 
         return response()->json([
             'message' => 'Reservation created successfully',
             'reservation' => $reservation
         ], 201);
+    }
+
+    public function checkReservation(Request $request)
+    {
+        // Logic to check if reservation exists
+
+        return response()->json(['message' => 'Reservation exists'], 200);
     }
 }

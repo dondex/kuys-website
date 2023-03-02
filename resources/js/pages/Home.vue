@@ -72,6 +72,10 @@
       </div>
     </section><!-- End Why Us Section -->
 
+    <!-- menu section -->
+    <Menu/>
+    <!--end  menu section -->
+
 
     <!-- ======= Specials Section ======= -->
     <section id="specials" class="specials">
@@ -349,6 +353,8 @@
 import Testimonial from '../components/Testimonial.vue';
 import Gallery from '../components/Gallery.vue';
 import MyReservation from '../components/MyReservation.vue';
+import Menu from '../components/Menu.vue';
+
 
 
 export default {
@@ -357,6 +363,7 @@ export default {
         Testimonial,
         Gallery,
         MyReservation,
+        Menu
     }
 }
 </script>
