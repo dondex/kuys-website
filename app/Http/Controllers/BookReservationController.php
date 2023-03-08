@@ -58,7 +58,7 @@ class BookReservationController extends Controller
         ];
 
         // Send email
-        Mail::to('dex.chavez21@gmail.com')->send(new ReservationConfirmation($mailData));
+        Mail::to('Info@kuysksa.xyz')->send(new ReservationConfirmation($mailData));
 
         return response()->json([
             'message' => 'Reservation created successfully',

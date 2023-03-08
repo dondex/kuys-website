@@ -15,12 +15,11 @@
                     <div class="testimonial-item">
                         <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        The food was delicious, the service was friendly and efficient and the atmosphere was great
+                        Relax at  Enjoy  ka  Dito ,KABAyaan  Halika na , DIto sa kuy’s sa  sulimania
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="../../../public/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                        <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+                        <h3>- MJK</h3>
                     </div>
                     </div><!-- End testimonial item -->
 
@@ -28,12 +27,11 @@
                     <div class="testimonial-item">
                         <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        I highly recommend it! I love this place great food , great atmosphere and a great staff. Very accommodating and great service.
+                        Astig  ang Performer
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="../../../public/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
+                        <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
+                        <h3>- Cute888</h3>
                     </div>
                     </div><!-- End testimonial item -->
 
@@ -44,9 +42,8 @@
                         Excellent food and drink.Friendly staff, eager to please. Will definitely come back.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="../../../public/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                        <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
                         <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
                     </div>
                     </div><!-- End testimonial item -->
 
@@ -54,12 +51,11 @@
                     <div class="testimonial-item">
                         <p>
                         <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Great restaurant with a long history of providing our family a consistently excellent dining experience. The owners and staff always exceed our expectations and truly seem to appreciate their customers.
+                        Punta  ka  dito,After  mo sa work .Tangal Ang  strees  mo HEHEEHEH.
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="../../../public/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
+                        <!-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt=""> -->
+                        <h3>- Judith</h3>
                     </div>
                     </div><!-- End testimonial item -->
 
@@ -70,9 +66,8 @@
                         My favorite restaurant! Always good food and good service! Can't beat the price! Can accommodate large groups! The staff is the best in town and why we keep coming back. Highly recommend this restaurant!
                         <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="../../../public/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                        <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt=""> -->
                         <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
                     </div>
                     </div><!-- End testimonial item -->
 
@@ -109,12 +104,12 @@ export default {
       breakpoints: {
         320: {
           slidesPerView: 1,
-          spaceBetween: 20
+          spaceBetween: 10
         },
 
         1200: {
           slidesPerView: 3,
-          spaceBetween: 20
+          spaceBetween: 10
         }
       }
     });

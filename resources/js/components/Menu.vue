@@ -1,24 +1,27 @@
 <template>
-    <div class="menu">
-      <div class="menu-filters">
-        <ul id="menu-flters">
-          <li class="filter-active" data-filter="*">All</li>
-          <li data-filter=".starter">Starter</li>
-          <li data-filter=".main-course">Main Course</li>
-          <li data-filter=".desserts">Desserts</li>
-        </ul>
-      </div>
-
-
-      <div class="row menu-container" style="margin: auto; width: 1400px;" >
-        <div v-for="item in menuItems" :key="item.id" class="col-lg-6 menu-item filter-grillbundle" :class="[item.category]">
-            <img :src="item.image" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">{{ item.name }}</a><span>{{ item.price }}</span>
+    <div>
+        <section id="menu" class="menu section-bg">
+            <div class="menu-filters">
+                <ul id="menu-flters">
+                <li class="filter-active" data-filter="*">All</li>
+                <li data-filter=".starter">Starter</li>
+                <li data-filter=".main-course">Main Course</li>
+                <li data-filter=".desserts">Desserts</li>
+                </ul>
             </div>
-        </div>
-      </div>
+
+
+            <div class="row menu-container" style="margin: auto; width: 1400px;" >
+                <div v-for="item in menuItems" :key="item.id" class="col-lg-6 menu-item filter-grillbundle" :class="[item.category]">
+                    <img :src="item.image" class="menu-img" alt="">
+                    <div class="menu-content">
+                    <a href="#">{{ item.name }}</a><span>{{ item.price }}</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+
   </template>
 
   <script>

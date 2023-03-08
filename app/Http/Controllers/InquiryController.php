@@ -19,7 +19,7 @@ class InquiryController extends Controller
         ]);
 
         // Send an email to the admin after a successful submission
-        Mail::to('dex.chavez21@gmail.com')->send(new InquirySubmitted($inquiry));
+        // Mail::to('dex.chavez21@gmail.com')->send(new InquirySubmitted($inquiry));
 
         return response()->json(['message' => 'Inquiry submitted successfully']);
     }

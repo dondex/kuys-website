@@ -4,7 +4,7 @@
                 <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
                 <div class="row">
                     <div class="col-lg-8">
-                    <h1>Welcome to <span>Kuy's Restaurant</span></h1>
+                    <h1>Welcome to <span>Kuy's sa Riyadh</span></h1>
                     <h2>Delivering great food</h2>
 
                     <div class="btns">
