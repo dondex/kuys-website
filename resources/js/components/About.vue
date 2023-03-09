@@ -24,7 +24,7 @@
                     <li><i class='bx bx-check-circle'></i> Solo performers</li>
                     </ul>
                     <p>
-                    Any suggestion ,  or  comments   pls  message  us . at infor@kuy’s.xyz
+                    Any suggestion ,  or  comments   pls  message  us . at info@kuysksa.xyz
                     </p>
                 </div>
                 </div>

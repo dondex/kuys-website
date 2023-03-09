@@ -109,6 +109,70 @@
                 </div>
                 </div>
 
+                <div class="col-lg-3 col-md-4">
+                <div class="gallery-item">
+                    <a href="assets/img/gallery/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                    <img src="../../../public/img/gallery/1.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/gallery/2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/gallery/3.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/4.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/gallery/4.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/gallery/5.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/gallery/3.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/gallery/7.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                  <img src="assets/img/gallery/8.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
             </div>
 
             </div>

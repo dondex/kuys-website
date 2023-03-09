@@ -11,7 +11,7 @@
                     <p>
                         6966, Abu Bakr Alrazi St, 6966, As Sulimaniyah,2467,<br> Riyadh 12231, Saudi Arabia<br>
                         <strong>Phone:</strong> +058 240 6854<br>
-                        <strong>Email:</strong> info@hoopoelink.com<br>
+                        <strong>Email:</strong> info@kuysksa.xyz<br>
                     </p>
                     <div class="social-links mt-3">
                         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
