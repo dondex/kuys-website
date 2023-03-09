@@ -19,117 +19,77 @@
     "file": "assets/boxicons-4b87cbc7.woff2",
     "src": "node_modules/boxicons/fonts/boxicons.woff2"
   },
-  "public/img/banner.jpg": {
-    "file": "assets/banner-7381c40d.jpg",
-    "src": "public/img/banner.jpg"
+  "public/img/QR.png": {
+    "file": "assets/QR-cde3cc5b.png",
+    "src": "public/img/QR.png"
   },
-  "public/img/chefs/chefs-1.jpg": {
-    "file": "assets/chefs-1-408069a1.jpg",
-    "src": "public/img/chefs/chefs-1.jpg"
+  "public/img/food/1.jpg": {
+    "file": "assets/1-65f6a0fb.jpg",
+    "src": "public/img/food/1.jpg"
   },
-  "public/img/chefs/chefs-2.jpg": {
-    "file": "assets/chefs-2-4ca0e173.jpg",
-    "src": "public/img/chefs/chefs-2.jpg"
+  "public/img/food/10.jpg": {
+    "file": "assets/10-1c83659e.jpg",
+    "src": "public/img/food/10.jpg"
   },
-  "public/img/chefs/chefs-3.jpg": {
-    "file": "assets/chefs-3-28ddea8b.jpg",
-    "src": "public/img/chefs/chefs-3.jpg"
+  "public/img/food/11.jpg": {
+    "file": "assets/11-18984e06.jpg",
+    "src": "public/img/food/11.jpg"
   },
-  "public/img/gallery/1.jpg": {
-    "file": "assets/1-b342e854.jpg",
-    "src": "public/img/gallery/1.jpg"
+  "public/img/food/12.jpg": {
+    "file": "assets/12-82ab51a7.jpg",
+    "src": "public/img/food/12.jpg"
   },
-  "public/img/gallery/2.jpg": {
-    "file": "assets/2-03086d33.jpg",
-    "src": "public/img/gallery/2.jpg"
+  "public/img/food/2.jpg": {
+    "file": "assets/2-450ba667.jpg",
+    "src": "public/img/food/2.jpg"
   },
-  "public/img/gallery/3.jpg": {
-    "file": "assets/3-11e68988.jpg",
-    "src": "public/img/gallery/3.jpg"
+  "public/img/food/3.jpg": {
+    "file": "assets/3-7c37a311.jpg",
+    "src": "public/img/food/3.jpg"
   },
-  "public/img/gallery/4.jpg": {
-    "file": "assets/4-5dcef175.jpg",
-    "src": "public/img/gallery/4.jpg"
+  "public/img/food/4.jpg": {
+    "file": "assets/4-396c59e9.jpg",
+    "src": "public/img/food/4.jpg"
   },
-  "public/img/gallery/5.jpg": {
-    "file": "assets/5-2086da76.jpg",
-    "src": "public/img/gallery/5.jpg"
+  "public/img/food/5.jpg": {
+    "file": "assets/5-9a29b979.jpg",
+    "src": "public/img/food/5.jpg"
   },
-  "public/img/gallery/7.jpg": {
-    "file": "assets/7-4ac31c55.jpg",
-    "src": "public/img/gallery/7.jpg"
+  "public/img/food/6.jpg": {
+    "file": "assets/6-545ecc27.jpg",
+    "src": "public/img/food/6.jpg"
   },
-  "public/img/gallery/8.jpg": {
-    "file": "assets/8-442e1151.jpg",
-    "src": "public/img/gallery/8.jpg"
+  "public/img/food/7.jpg": {
+    "file": "assets/7-534a8ae7.jpg",
+    "src": "public/img/food/7.jpg"
   },
-  "public/img/specials-1.png": {
-    "file": "assets/specials-1-6421c998.png",
-    "src": "public/img/specials-1.png"
+  "public/img/food/8.jpg": {
+    "file": "assets/8-4202948e.jpg",
+    "src": "public/img/food/8.jpg"
   },
-  "public/img/specials-2.png": {
-    "file": "assets/specials-2-2c834ae4.png",
-    "src": "public/img/specials-2.png"
-  },
-  "public/img/specials-3.png": {
-    "file": "assets/specials-3-436313b8.png",
-    "src": "public/img/specials-3.png"
-  },
-  "public/img/specials-4.png": {
-    "file": "assets/specials-4-e13fd951.png",
-    "src": "public/img/specials-4.png"
-  },
-  "public/img/specials-5.png": {
-    "file": "assets/specials-5-6de32855.png",
-    "src": "public/img/specials-5.png"
-  },
-  "public/img/testimonials/testimonials-1.jpg": {
-    "file": "assets/testimonials-1-c88a6037.jpg",
-    "src": "public/img/testimonials/testimonials-1.jpg"
-  },
-  "public/img/testimonials/testimonials-2.jpg": {
-    "file": "assets/testimonials-2-fe89415d.jpg",
-    "src": "public/img/testimonials/testimonials-2.jpg"
-  },
-  "public/img/testimonials/testimonials-3.jpg": {
-    "file": "assets/testimonials-3-acacf06d.jpg",
-    "src": "public/img/testimonials/testimonials-3.jpg"
-  },
-  "public/img/testimonials/testimonials-4.jpg": {
-    "file": "assets/testimonials-4-09864812.jpg",
-    "src": "public/img/testimonials/testimonials-4.jpg"
-  },
-  "public/img/testimonials/testimonials-5.jpg": {
-    "file": "assets/testimonials-5-39550cf5.jpg",
-    "src": "public/img/testimonials/testimonials-5.jpg"
+  "public/img/food/9.jpg": {
+    "file": "assets/9-f1a5d448.jpg",
+    "src": "public/img/food/9.jpg"
   },
   "resources/js/app.css": {
-    "file": "assets/app-40c03b4a.css",
+    "file": "assets/app-9b439a50.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
     "assets": [
-      "assets/testimonials-1-c88a6037.jpg",
-      "assets/testimonials-2-fe89415d.jpg",
-      "assets/testimonials-3-acacf06d.jpg",
-      "assets/testimonials-4-09864812.jpg",
-      "assets/testimonials-5-39550cf5.jpg",
-      "assets/1-b342e854.jpg",
-      "assets/2-03086d33.jpg",
-      "assets/3-11e68988.jpg",
-      "assets/4-5dcef175.jpg",
-      "assets/5-2086da76.jpg",
-      "assets/7-4ac31c55.jpg",
-      "assets/8-442e1151.jpg",
-      "assets/banner-7381c40d.jpg",
-      "assets/specials-1-6421c998.png",
-      "assets/specials-2-2c834ae4.png",
-      "assets/specials-3-436313b8.png",
-      "assets/specials-4-e13fd951.png",
-      "assets/specials-5-6de32855.png",
-      "assets/chefs-1-408069a1.jpg",
-      "assets/chefs-2-4ca0e173.jpg",
-      "assets/chefs-3-28ddea8b.jpg",
+      "assets/1-65f6a0fb.jpg",
+      "assets/2-450ba667.jpg",
+      "assets/3-7c37a311.jpg",
+      "assets/4-396c59e9.jpg",
+      "assets/5-9a29b979.jpg",
+      "assets/6-545ecc27.jpg",
+      "assets/7-534a8ae7.jpg",
+      "assets/8-4202948e.jpg",
+      "assets/9-f1a5d448.jpg",
+      "assets/10-1c83659e.jpg",
+      "assets/11-18984e06.jpg",
+      "assets/12-82ab51a7.jpg",
+      "assets/QR-cde3cc5b.png",
       "assets/boxicons-c23887bb.eot",
       "assets/boxicons-4b87cbc7.woff2",
       "assets/boxicons-d5d511cf.woff",
@@ -137,9 +97,9 @@
       "assets/boxicons-3fe502d8.svg"
     ],
     "css": [
-      "assets/app-40c03b4a.css"
+      "assets/app-9b439a50.css"
     ],
-    "file": "assets/app-824fed12.js",
+    "file": "assets/app-c25b8df8.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
