@@ -184,13 +184,14 @@
           <div class="col-lg-4">
             <div class="info">
               <div class="address">
-                <i class="bi bi-geo-alt"></i>
+                <i class="fa-solid fa-location-dot"></i>
+                <font-awesome-icon icon="fa-solid fa-location-dot" />
                 <h4>Location:</h4>
                 <p>6966, Abu Bakr Alrazi St, 6966, As Sulimaniyah,2467, Riyadh 12231, Saudi Arabia</p>
               </div>
 
               <div class="open-hours">
-                <i class="bi bi-clock"></i>
+                <i class="fa-solid fa-clock"></i>
                 <h4>Open Hours:</h4>
                 <p>
                   Monday-Saturday:<br>
@@ -199,13 +200,13 @@
               </div>
 
               <div class="email">
-                <i class="bi bi-envelope"></i>
+                <i class="fa-solid fa-envelope"></i>
                 <h4>Email:</h4>
                 <p>info@kuysksa.xyz</p>
               </div>
 
               <div class="phone">
-                <i class="bi bi-phone"></i>
+                <i class="fa-solid fa-clock"></i>
                 <h4>Call:</h4>
                 <p>+058 240 6854</p>
               </div>

@@ -1,4 +1,36 @@
 {
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-2ef6fdde.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-f4617423.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-12dea17b.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-7ba24c41.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-67a880b4.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-e2c5cf54.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/fa-v4compatibility-8d9500e8.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-7c377405.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
   "node_modules/boxicons/fonts/boxicons.eot": {
     "file": "assets/boxicons-c23887bb.eot",
     "src": "node_modules/boxicons/fonts/boxicons.eot"
@@ -27,22 +59,6 @@
     "file": "assets/1-65f6a0fb.jpg",
     "src": "public/img/food/1.jpg"
   },
-  "public/img/food/10.jpg": {
-    "file": "assets/10-1c83659e.jpg",
-    "src": "public/img/food/10.jpg"
-  },
-  "public/img/food/11.jpg": {
-    "file": "assets/11-18984e06.jpg",
-    "src": "public/img/food/11.jpg"
-  },
-  "public/img/food/12.jpg": {
-    "file": "assets/12-82ab51a7.jpg",
-    "src": "public/img/food/12.jpg"
-  },
-  "public/img/food/2.jpg": {
-    "file": "assets/2-450ba667.jpg",
-    "src": "public/img/food/2.jpg"
-  },
   "public/img/food/3.jpg": {
     "file": "assets/3-7c37a311.jpg",
     "src": "public/img/food/3.jpg"
@@ -55,24 +71,76 @@
     "file": "assets/5-9a29b979.jpg",
     "src": "public/img/food/5.jpg"
   },
-  "public/img/food/6.jpg": {
+  "resources/img/about-bg.jpg": {
+    "file": "assets/about-bg-f97387d7.jpg",
+    "src": "resources/img/about-bg.jpg"
+  },
+  "resources/img/events-bg.jpg": {
+    "file": "assets/events-bg-4a4bcf24.jpg",
+    "src": "resources/img/events-bg.jpg"
+  },
+  "resources/img/food/10.jpg": {
+    "file": "assets/10-1c83659e.jpg",
+    "src": "resources/img/food/10.jpg"
+  },
+  "resources/img/food/11.jpg": {
+    "file": "assets/11-18984e06.jpg",
+    "src": "resources/img/food/11.jpg"
+  },
+  "resources/img/food/12.jpg": {
+    "file": "assets/12-82ab51a7.jpg",
+    "src": "resources/img/food/12.jpg"
+  },
+  "resources/img/food/2.jpg": {
+    "file": "assets/2-450ba667.jpg",
+    "src": "resources/img/food/2.jpg"
+  },
+  "resources/img/food/6.jpg": {
     "file": "assets/6-545ecc27.jpg",
-    "src": "public/img/food/6.jpg"
+    "src": "resources/img/food/6.jpg"
   },
-  "public/img/food/7.jpg": {
+  "resources/img/food/7.jpg": {
     "file": "assets/7-534a8ae7.jpg",
-    "src": "public/img/food/7.jpg"
+    "src": "resources/img/food/7.jpg"
   },
-  "public/img/food/8.jpg": {
+  "resources/img/food/8.jpg": {
     "file": "assets/8-4202948e.jpg",
-    "src": "public/img/food/8.jpg"
+    "src": "resources/img/food/8.jpg"
   },
-  "public/img/food/9.jpg": {
+  "resources/img/food/9.jpg": {
     "file": "assets/9-f1a5d448.jpg",
-    "src": "public/img/food/9.jpg"
+    "src": "resources/img/food/9.jpg"
+  },
+  "resources/img/gallery/1.jpg": {
+    "file": "assets/1-b342e854.jpg",
+    "src": "resources/img/gallery/1.jpg"
+  },
+  "resources/img/gallery/2.jpg": {
+    "file": "assets/2-03086d33.jpg",
+    "src": "resources/img/gallery/2.jpg"
+  },
+  "resources/img/gallery/3.jpg": {
+    "file": "assets/3-11e68988.jpg",
+    "src": "resources/img/gallery/3.jpg"
+  },
+  "resources/img/gallery/4.jpg": {
+    "file": "assets/4-5dcef175.jpg",
+    "src": "resources/img/gallery/4.jpg"
+  },
+  "resources/img/gallery/5.jpg": {
+    "file": "assets/5-2086da76.jpg",
+    "src": "resources/img/gallery/5.jpg"
+  },
+  "resources/img/gallery/7.jpg": {
+    "file": "assets/7-4ac31c55.jpg",
+    "src": "resources/img/gallery/7.jpg"
+  },
+  "resources/img/gallery/8.jpg": {
+    "file": "assets/8-442e1151.jpg",
+    "src": "resources/img/gallery/8.jpg"
   },
   "resources/js/app.css": {
-    "file": "assets/app-9b439a50.css",
+    "file": "assets/app-0f75432e.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
@@ -89,17 +157,34 @@
       "assets/10-1c83659e.jpg",
       "assets/11-18984e06.jpg",
       "assets/12-82ab51a7.jpg",
+      "assets/1-b342e854.jpg",
+      "assets/2-03086d33.jpg",
+      "assets/3-11e68988.jpg",
+      "assets/4-5dcef175.jpg",
+      "assets/5-2086da76.jpg",
+      "assets/7-4ac31c55.jpg",
+      "assets/8-442e1151.jpg",
       "assets/QR-cde3cc5b.png",
       "assets/boxicons-c23887bb.eot",
       "assets/boxicons-4b87cbc7.woff2",
       "assets/boxicons-d5d511cf.woff",
       "assets/boxicons-47509a2d.ttf",
-      "assets/boxicons-3fe502d8.svg"
+      "assets/boxicons-3fe502d8.svg",
+      "assets/fa-brands-400-f4617423.woff2",
+      "assets/fa-brands-400-2ef6fdde.ttf",
+      "assets/fa-regular-400-7ba24c41.woff2",
+      "assets/fa-regular-400-12dea17b.ttf",
+      "assets/fa-solid-900-e2c5cf54.woff2",
+      "assets/fa-solid-900-67a880b4.ttf",
+      "assets/fa-v4compatibility-7c377405.woff2",
+      "assets/fa-v4compatibility-8d9500e8.ttf",
+      "assets/about-bg-f97387d7.jpg",
+      "assets/events-bg-4a4bcf24.jpg"
     ],
     "css": [
-      "assets/app-9b439a50.css"
+      "assets/app-0f75432e.css"
     ],
-    "file": "assets/app-c25b8df8.js",
+    "file": "assets/app-d65418ca.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
