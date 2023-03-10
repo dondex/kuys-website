@@ -58,7 +58,7 @@ class BookReservationController extends Controller
         ];
 
         // Send email
-        Mail::to('Info@kuysksa.xyz')->send(new ReservationConfirmation($mailData));
+        Mail::to('info@kuysksa.xyz')->send(new ReservationConfirmation($mailData));
 
         return response()->json([
             'message' => 'Reservation created successfully',
@@ -69,7 +69,6 @@ class BookReservationController extends Controller
     public function checkReservation(Request $request)
     {
         // Logic to check if reservation exists
-
         return response()->json(['message' => 'Reservation exists'], 200);
     }
 }

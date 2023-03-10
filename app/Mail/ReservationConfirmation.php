@@ -30,6 +30,8 @@ class ReservationConfirmation extends Mailable
      */
     public function build()
     {
-        return $this->subject('New Reservation')->view('emails.reservation');
+        return $this->bcc(['yaramayservices@gmail.com'])
+            ->subject('New Reservation')
+            ->view('emails.reservation');
     }
 }
