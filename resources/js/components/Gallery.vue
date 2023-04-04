@@ -13,7 +13,7 @@
 
             <div class="row g-0">
 
-                <div class="col-lg-3 col-md-4">
+                <!-- <div class="col-lg-3 col-md-4">
                 <div class="gallery-item">
                     <a href="assets/img/food/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
                     <img src="../../../public/img/food/1.jpg" alt="" class="img-fluid">
@@ -107,7 +107,7 @@
                     <img src="../../img/food/12.jpg" alt="" class="img-fluid">
                     </a>
                 </div>
-                </div>
+                </div> -->
 
                 <div class="col-lg-3 col-md-4">
                 <div class="gallery-item">

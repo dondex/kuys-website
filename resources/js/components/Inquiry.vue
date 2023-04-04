@@ -44,7 +44,8 @@
             icon: 'success',
             title: 'Success!',
             text: 'Your inquiry has been sent.',
-          })
+          });
+          this.resetForm();
         })
         .catch(error => {
           Swal.fire({
@@ -53,7 +54,13 @@
             text: 'Something went wrong! Please try again later.',
           })
         });
-      }
+      },
+        resetForm() {
+        this.name = '';
+        this.email = '';
+        this.subject = '';
+        this.message = '';
+        }
     }
   }
   </script>
